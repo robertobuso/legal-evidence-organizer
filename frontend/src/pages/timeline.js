@@ -4,7 +4,7 @@ import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 import Layout from '../components/Layout';
-import TimelineComponent from '../components/TimelineComponent';
+import TimelineComponent from '../components/Timeline';
 
 export default function TimelinePage() {
   return (

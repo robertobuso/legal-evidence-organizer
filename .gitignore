@@ -9,6 +9,7 @@ __pycache__/
 # Frontend
 node_modules/
 frontend/node_modules/
+credentials.json
 
 # Distribution / packaging
 .Python

@@ -4,7 +4,7 @@ import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 import Layout from '../components/Layout';
-import ReportComponent from '../components/ReportComponent';
+import ReportComponent from '../components/Report';
 
 export default function ReportPage() {
   return (
