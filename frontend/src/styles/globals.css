@@ -1,0 +1,72 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@layer base {
+  body {
+    @apply bg-gray-50 text-gray-900;
+  }
+
+  h1 {
+    @apply text-2xl font-bold text-gray-900 mb-4;
+  }
+
+  h2 {
+    @apply text-xl font-semibold text-gray-800 mb-3;
+  }
+
+  h3 {
+    @apply text-lg font-semibold text-gray-800 mb-2;
+  }
+
+  a {
+    @apply text-primary-600 hover:text-primary-700;
+  }
+
+  p {
+    @apply mb-4;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-primary-600 hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500 transition-colors duration-200;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center px-4 py-2 border border-gray-300 text-sm font-medium rounded-md shadow-sm text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500 transition-colors duration-200;
+  }
+
+  .btn-danger {
+    @apply inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-red-600 hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 transition-colors duration-200;
+  }
+
+  .input {
+    @apply block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-primary-500 focus:border-primary-500 sm:text-sm;
+  }
+
+  .label {
+    @apply block text-sm font-medium text-gray-700 mb-1;
+  }
+
+  .card {
+    @apply bg-white shadow rounded-lg p-6;
+  }
+
+  .timeline-item {
+    @apply relative pb-8;
+  }
+
+  .timeline-item::before {
+    content: '';
+    @apply absolute top-4 left-4 -ml-px h-full w-0.5 bg-gray-200;
+  }
+
+  .timeline-item:last-child::before {
+    @apply h-4;
+  }
+
+  .timeline-badge {
+    @apply absolute top-4 left-4 -ml-2 h-4 w-4 rounded-full bg-primary-500 border-2 border-white;
+  }
+}
