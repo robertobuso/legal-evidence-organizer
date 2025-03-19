@@ -10,6 +10,7 @@ __pycache__/
 node_modules/
 frontend/node_modules/
 credentials.json
+token.json
 
 # Distribution / packaging
 .Python
@@ -178,3 +179,4 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+token.json
