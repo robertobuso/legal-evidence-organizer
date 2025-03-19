@@ -29,25 +29,10 @@ self.__BUILD_MANIFEST = {
       "static/chunks/main.js",
       "static/chunks/pages/emails.js"
     ],
-    "/evidence": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/evidence.js"
-    ],
     "/report": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/report.js"
-    ],
-    "/search": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/search.js"
-    ],
-    "/timeline": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/timeline.js"
     ]
   },
   "ampFirstPages": []
